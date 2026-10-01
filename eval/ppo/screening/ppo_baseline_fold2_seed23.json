@@ -1,0 +1,17 @@
+{
+  "config": "ppo_baseline",
+  "seed": 23,
+  "fold": 2,
+  "training_steps": 16384,
+  "updates": 384,
+  "start": "2026-05-19 00:00:00+00:00",
+  "end": "2026-06-18 00:00:00+00:00",
+  "portfolio_return": -0.32545164830758766,
+  "market_return": -0.16374549574045505,
+  "excess_return": -0.1617061525671326,
+  "max_drawdown": -0.43231286759434506,
+  "log_return": -0.3937119206665075,
+  "action_changes": 75,
+  "steps": 719,
+  "total_reward": -0.39371192066650773
+}

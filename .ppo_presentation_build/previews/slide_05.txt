@@ -1,0 +1,22 @@
+State representation
+Input
+Baseline
+Momentum alternatives
+Static market
+features
+5
+13
+Main information
+Hourly return, price ratios,
+relative volume
+Multi-horizon returns, volatility, trends, candle shape,
+relative volume
+Dynamic features
+Previous target position and current realised exposure
+Total input
+dimensions
+7
+15
+Fit the scaler on each training partition; apply it unchanged to validation and evaluation.
+Source: fixed notebook and captured experiment; all dates UTC.
+5 / 24

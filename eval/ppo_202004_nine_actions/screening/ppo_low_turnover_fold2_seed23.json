@@ -1,0 +1,17 @@
+{
+  "config": "ppo_low_turnover",
+  "seed": 23,
+  "fold": 2,
+  "training_steps": 16384,
+  "updates": 384,
+  "start": "2026-05-19 00:00:00+00:00",
+  "end": "2026-06-18 00:00:00+00:00",
+  "portfolio_return": 0.016612050638616038,
+  "market_return": -0.16374549574045505,
+  "excess_return": 0.1803575463790711,
+  "max_drawdown": -0.049856857355619955,
+  "log_return": 0.01647557982487449,
+  "action_changes": 151,
+  "steps": 719,
+  "total_reward": 0.016475579824874326
+}

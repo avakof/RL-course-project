@@ -1,0 +1,8 @@
+              portfolio_return  max_drawdown  action_changes
+policy                                                      
+Original DQN         -0.203728     -0.294361              17
+Tuned DQN            -0.060435     -0.084376              70
+Baseline PPO          0.144425     -0.040246             434
+Tuned PPO            -0.005714     -0.005714               2
+Cash                  0.000000      0.000000               0
+Buy and hold          0.211083     -0.077078               1

@@ -1,0 +1,17 @@
+{
+  "config": "ppo_short_horizon",
+  "seed": 23,
+  "fold": 2,
+  "training_steps": 49152,
+  "updates": 1152,
+  "start": "2026-05-19 00:00:00+00:00",
+  "end": "2026-06-18 00:00:00+00:00",
+  "portfolio_return": -0.06377106546061417,
+  "market_return": -0.16374549574045505,
+  "excess_return": 0.09997443027984088,
+  "max_drawdown": -0.16624024463645215,
+  "log_return": -0.06589524422825367,
+  "action_changes": 151,
+  "steps": 719,
+  "total_reward": -0.06589524422825337
+}

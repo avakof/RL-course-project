@@ -1,0 +1,5 @@
+Final return improved for baseline, not selected PPO
+Evaluation candle labels: 17 Aug 2026 00:00 through 16 Sep 2026 23:00 UTC. Returns use first-to-last included close, with simulator fees. Borrowing
+accounting has a verified limitation; slippage and spread are omitted.
+Source: fixed notebook and captured experiment; all dates UTC.
+16 / 24

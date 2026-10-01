@@ -1,0 +1,9 @@
+Next experiments: improve credibility before complexity
+1. Correct financing and specify rebalancing and liquidation rules.
+2. Test feasible execution with measured cost scenarios.
+3. Allow cash and buy-and-hold to compete in policy selection.
+4. Freeze choices before a new untouched evaluation period.
+5. Run matched ablations and test less restrictive ensemble rules.
+These are proposed experiments. No improvement from them has been demonstrated yet.
+Source: fixed notebook and captured experiment; all dates UTC.
+22 / 24

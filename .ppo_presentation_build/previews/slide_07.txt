@@ -1,0 +1,14 @@
+Network and training architecture
+Observation → separate actor and critic networks
+Actor
+7 or 15 inputs → 64 tanh → 64 tanh → 9 logits
+Critic
+7 or 15 inputs → 64 tanh → 64 tanh → 1 value
+Rollout batch
+4 environments × 256 steps = 1,024 transitions
+Update
+GAE; normalised advantages; 6 epochs; minibatches of 256
+Evaluation
+Frozen weights; deterministic action selection; no learning
+Source: fixed notebook and captured experiment; all dates UTC.
+7 / 24

@@ -1,0 +1,5 @@
+Data and chronological windows
+Daily closing prices are plotted from the verified hourly dataset. Shaded windows show four 30-day validations and the 31-day evaluation. Date endpoints
+are exclusive; all timestamps are UTC.
+Source: fixed notebook and captured experiment; all dates UTC.
+4 / 24

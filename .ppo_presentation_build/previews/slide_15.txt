@@ -1,0 +1,5 @@
+Validation and evaluation had different market patterns
+All dates are in 2026 UTC, end exclusive. Each fold has 720 observations and 719 transitions. The selected policy’s fold returns were 0.00%, +0.48%,
+−0.24% and −0.09%.
+Source: fixed notebook and captured experiment; all dates UTC.
+15 / 24

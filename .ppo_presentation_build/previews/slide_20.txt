@@ -1,0 +1,5 @@
+Learning diagnostics do not prove convergence
+Final baseline networks: 48 rollout batches × 1,024 transitions = 49,152 per seed; 1,152 minibatch optimiser updates per seed. No KL early stop occurred.
+Entropy declines, but noisy critic explained variance does not establish predictive skill or convergence.
+Source: fixed notebook and captured experiment; all dates UTC.
+20 / 24

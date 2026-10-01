@@ -1,0 +1,17 @@
+{
+  "config": "ppo_momentum",
+  "seed": 23,
+  "fold": 0,
+  "training_steps": 16384,
+  "updates": 384,
+  "start": "2026-01-19 00:00:00+00:00",
+  "end": "2026-02-18 00:00:00+00:00",
+  "portfolio_return": -0.351161244894447,
+  "market_return": -0.2718932441903886,
+  "excess_return": -0.07926800070405837,
+  "max_drawdown": -0.4074124362204564,
+  "log_return": -0.43257104444833566,
+  "action_changes": 149,
+  "steps": 719,
+  "total_reward": -0.4325710444483367
+}

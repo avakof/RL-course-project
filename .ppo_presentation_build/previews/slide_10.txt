@@ -1,0 +1,24 @@
+Experimental design
+Stage
+Fits
+Steps per fit
+Transitions
+Screening: 7 configs × 4 folds × 1 seed
+28
+16,384
+458,752
+Confirmation: 3 configs × 4 folds × 3 seeds
+36
+49,152
+1,769,472
+Final refit: 1 config × 3 seeds
+3
+49,152
+147,456
+Total
+67
+2,375,680
+Then compare 2 aggregation rules × 3 candidates × 4 folds.
+Seeds: 23, 42, 71. Selection is frozen before final evaluation.
+Source: fixed notebook and captured experiment; all dates UTC.
+10 / 24

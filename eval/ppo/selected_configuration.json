@@ -1,0 +1,37 @@
+{
+  "config": {
+    "name": "ppo_unlevered",
+    "features": "momentum",
+    "positions": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "hidden": 64,
+    "lr": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip_range": 0.2,
+    "entropy_coef": 0.01,
+    "value_coef": 0.5,
+    "max_grad_norm": 0.5,
+    "target_kl": 0.02,
+    "epochs": 6,
+    "batch_size": 256,
+    "n_envs": 4,
+    "rollout_steps": 256,
+    "reward_scale": 100.0,
+    "turnover_penalty": 0.0001,
+    "anneal_lr": true
+  },
+  "aggregation": "unanimous",
+  "seeds": [
+    23,
+    42,
+    71
+  ],
+  "training_steps": 49152,
+  "evaluation_used_for_selection": false,
+  "reused_assignment_holdout": true,
+  "selection": "highest fixed risk-adjusted score over four chronological validation folds"
+}

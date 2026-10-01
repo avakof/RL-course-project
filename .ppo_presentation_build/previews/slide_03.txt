@@ -1,0 +1,8 @@
+Why PPO
+A categorical actor directly represents the nine action probabilities.
+A critic estimates state value to support advantage-based learning.
+Clipping, gradient limits and a KL check control policy updates.
+Fresh rollouts are reused for a few epochs, then discarded.
+A reasonable research choice; no evidence here that PPO is universally best for trading.
+Theory: Schulman et al., PPO (2017), https://arxiv.org/abs/1707.06347
+3 / 24

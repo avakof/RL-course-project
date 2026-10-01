@@ -1,0 +1,8 @@
+Limitations that affect the conclusion
+Financing defect: interest is overwritten rather than accumulated on a held short.
+Optimistic execution: same-close trading; no spread, slippage or latency.
+Selection risk: only four recent folds; the evaluation month was reused.
+Weak independence: ten repeated episodes replay the same deterministic path.
+Attribution: bundled changes prevent isolated causal conclusions.
+Source: fixed notebook and captured experiment; all dates UTC.
+21 / 24

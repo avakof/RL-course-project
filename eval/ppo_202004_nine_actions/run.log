@@ -1,0 +1,84 @@
+screening ppo_baseline fold 0 seed 23 return -28.20%
+screening ppo_baseline fold 2 seed 23 return -14.85%
+screening ppo_baseline fold 1 seed 23 return 5.26%
+screening ppo_baseline fold 3 seed 23 return -4.84%
+screening ppo_momentum fold 0 seed 23 return 8.23%
+screening ppo_momentum fold 1 seed 23 return -7.29%
+screening ppo_momentum fold 2 seed 23 return 1.87%
+screening ppo_momentum fold 3 seed 23 return 2.68%
+screening ppo_cautious fold 0 seed 23 return -0.72%
+screening ppo_cautious fold 1 seed 23 return -6.49%
+screening ppo_cautious fold 2 seed 23 return 2.01%
+screening ppo_cautious fold 3 seed 23 return 3.04%
+screening ppo_short_horizon fold 0 seed 23 return -8.20%
+screening ppo_short_horizon fold 1 seed 23 return -7.61%
+screening ppo_short_horizon fold 2 seed 23 return -1.21%
+screening ppo_turnover fold 0 seed 23 return 2.03%
+screening ppo_short_horizon fold 3 seed 23 return -0.34%
+screening ppo_turnover fold 1 seed 23 return -4.60%
+screening ppo_turnover fold 2 seed 23 return -1.87%
+screening ppo_turnover fold 3 seed 23 return 7.38%
+screening ppo_low_turnover fold 0 seed 23 return 8.09%
+screening ppo_low_turnover fold 1 seed 23 return -7.49%
+screening ppo_low_turnover fold 2 seed 23 return 1.66%
+screening ppo_low_turnover fold 3 seed 23 return 1.53%
+screening ppo_exploration fold 0 seed 23 return 4.99%
+screening ppo_exploration fold 1 seed 23 return -6.58%
+screening ppo_exploration fold 2 seed 23 return -5.95%
+screening ppo_exploration fold 3 seed 23 return 1.46%
+confirmation ppo_baseline fold 0 seed 23 return -11.86%
+confirmation ppo_baseline fold 0 seed 71 return -4.04%
+confirmation ppo_baseline fold 0 seed 42 return -6.14%
+confirmation ppo_baseline fold 1 seed 23 return -7.81%
+confirmation ppo_baseline fold 1 seed 42 return -9.70%
+confirmation ppo_baseline fold 1 seed 71 return -14.05%
+confirmation ppo_baseline fold 2 seed 23 return -1.08%
+confirmation ppo_baseline fold 2 seed 42 return 3.10%
+confirmation ppo_baseline fold 2 seed 71 return -1.63%
+confirmation ppo_baseline fold 3 seed 23 return -8.15%
+confirmation ppo_baseline fold 3 seed 42 return -1.67%
+confirmation ppo_baseline fold 3 seed 71 return -4.33%
+confirmation ppo_momentum fold 0 seed 23 return -5.67%
+confirmation ppo_momentum fold 0 seed 71 return -6.26%
+confirmation ppo_momentum fold 0 seed 42 return -21.32%
+confirmation ppo_momentum fold 1 seed 42 return -9.13%
+confirmation ppo_momentum fold 1 seed 23 return 2.43%
+confirmation ppo_momentum fold 1 seed 71 return 1.85%
+confirmation ppo_momentum fold 2 seed 23 return -9.52%
+confirmation ppo_momentum fold 2 seed 42 return -3.13%
+confirmation ppo_momentum fold 2 seed 71 return -4.11%
+confirmation ppo_momentum fold 3 seed 42 return -4.74%
+confirmation ppo_momentum fold 3 seed 23 return 1.42%
+confirmation ppo_momentum fold 3 seed 71 return 0.59%
+confirmation ppo_low_turnover fold 0 seed 42 return -9.16%
+confirmation ppo_low_turnover fold 0 seed 23 return -6.56%
+confirmation ppo_low_turnover fold 0 seed 71 return -7.31%
+confirmation ppo_low_turnover fold 1 seed 23 return 0.21%
+confirmation ppo_low_turnover fold 1 seed 42 return -4.01%
+confirmation ppo_low_turnover fold 1 seed 71 return -0.72%
+confirmation ppo_low_turnover fold 2 seed 23 return -0.66%
+confirmation ppo_low_turnover fold 2 seed 42 return -5.43%
+confirmation ppo_low_turnover fold 2 seed 71 return -2.66%
+confirmation ppo_low_turnover fold 3 seed 23 return 2.34%
+confirmation ppo_low_turnover fold 3 seed 42 return 2.24%
+confirmation ppo_low_turnover fold 3 seed 71 return -0.09%
+FROZEN PPO SELECTION ppo_baseline unanimous
+                                    mean_log_return  std_log_return  mean_return  worst_return  mean_drawdown  mean_action_changes  selection_score
+config                                                                                                                                             
+ppo_baseline::unanimous                    0.000377        0.003090     0.000381     -0.002378      -0.003131                 16.5        -0.000714
+ppo_low_turnover::unanimous                0.002108        0.013632     0.002180     -0.013144      -0.017364                 81.0        -0.003597
+ppo_momentum::unanimous                   -0.007411        0.013130    -0.007319     -0.025556      -0.018710                 61.5        -0.013401
+ppo_low_turnover::mean_probability         0.003796        0.088923     0.006778     -0.092208      -0.085418                105.5        -0.026451
+ppo_momentum::mean_probability            -0.017532        0.086262    -0.014649     -0.110678      -0.094319                158.0        -0.049738
+ppo_baseline::mean_probability            -0.074153        0.047386    -0.070690     -0.124297      -0.123994                456.5        -0.109890
+final_members ppo_baseline fold -1 seed 23 return fit complete
+final_members ppo_baseline fold -1 seed 71 return fit complete
+final_members ppo_baseline fold -1 seed 42 return fit complete
+              portfolio_return  max_drawdown  action_changes
+policy                                                      
+Original DQN         -0.203728     -0.294361              17
+Tuned DQN            -0.060435     -0.084376              70
+Baseline PPO          0.144425     -0.040246             434
+Tuned PPO            -0.005714     -0.005714               2
+Cash                  0.000000      0.000000               0
+Buy and hold          0.211083     -0.077078               1

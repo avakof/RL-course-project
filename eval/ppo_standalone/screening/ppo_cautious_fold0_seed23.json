@@ -1,0 +1,17 @@
+{
+  "config": "ppo_cautious",
+  "seed": 23,
+  "fold": 0,
+  "training_steps": 16384,
+  "updates": 384,
+  "start": "2026-01-19 00:00:00+00:00",
+  "end": "2026-02-18 00:00:00+00:00",
+  "portfolio_return": -0.007159140977084699,
+  "market_return": -0.2718932441903886,
+  "excess_return": 0.26473410321330393,
+  "max_drawdown": -0.07453041804696547,
+  "log_return": -0.007184890597224237,
+  "action_changes": 191,
+  "steps": 719,
+  "total_reward": -0.0071848905972240265
+}

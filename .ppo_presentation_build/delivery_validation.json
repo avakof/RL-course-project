@@ -1,0 +1,8 @@
+{
+  "pdf_pages": 24,
+  "chart_count": 11,
+  "standalone_html_images_verified": true,
+  "pdf_text_within_page": true,
+  "source_notebook_unchanged": true,
+  "material_scope": "Captured experiment analysis; frozen-policy replays; no new training."
+}

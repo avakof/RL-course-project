@@ -1,0 +1,9 @@
+Reward and simulation assumptions
+rtrain = 100 × [log(Vt+1/Vt) − κ |Δtarget|]
+Initial portfolio: 1,000 USDT in cash.
+Trading-fee parameter: 0.01%; hourly borrowing parameter: 0.0003%.
+Turnover penalty κ shapes learning; it is not an extra portfolio debit.
+Reported return comes from simulated portfolio value, not shaped reward.
+Costs are incomplete: no spread or slippage; borrowing accumulation has a verified defect.
+Source: fixed notebook and captured experiment; all dates UTC.
+8 / 24

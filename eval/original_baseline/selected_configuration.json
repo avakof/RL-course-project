@@ -1,0 +1,10 @@
+{
+  "experiment": "baseline_dqn",
+  "normalize": false,
+  "double": false,
+  "seed": 23,
+  "episodes": 40,
+  "validation_start": "2026-07-18 00:00:00+00:00",
+  "evaluation_start": "2026-08-17 00:00:00+00:00",
+  "evaluation_end": "2026-09-17 00:00:00+00:00"
+}

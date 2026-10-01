@@ -1,0 +1,17 @@
+{
+  "config": "momentum_ddqn",
+  "seed": 23,
+  "fold": 3,
+  "start": "2026-07-18 00:00:00+00:00",
+  "end": "2026-08-17 00:00:00+00:00",
+  "training_steps": 12000,
+  "updates": 2937,
+  "portfolio_return": -0.0016476146380254297,
+  "market_return": -0.015804089623477013,
+  "excess_return": 0.014156474985451584,
+  "max_drawdown": -0.047968625088919525,
+  "log_return": -0.0016489734477581246,
+  "action_changes": 326,
+  "steps": 719,
+  "total_reward": -0.0016489734477588436
+}

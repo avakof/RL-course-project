@@ -1,0 +1,15 @@
+{
+  "tests_passed": 16,
+  "trial_counts": {
+    "screening": 28,
+    "confirmation": 36,
+    "final_members": 3
+  },
+  "training_transitions": 2375680,
+  "selected_config": "ppo_baseline",
+  "aggregation": "unanimous",
+  "portfolio_return": -0.005714268765780073,
+  "max_drawdown": -0.005714268765780073,
+  "cash_fraction": 0.9986541049798116,
+  "status": "passed"
+}

@@ -1,0 +1,5 @@
+Seed sensitivity remains material
+These are the same three fitted networks used by both ensembles. The six notebook rows repeat these three members under two policy labels; they are
+not six independent models. An ensemble combines decisions, not realised returns.
+Source: fixed notebook and captured experiment; all dates UTC.
+19 / 24

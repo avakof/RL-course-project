@@ -1,0 +1,5 @@
+The validation score selected abstention
+Score = mean(log return) − 0.25 × mean(drawdown magnitude) − 0.10 × sample standard deviation(log return). Scores use four ensemble backtests, one
+per fold. Cash is shown for context but was excluded from selectable PPO candidates.
+Source: fixed notebook and captured experiment; all dates UTC.
+14 / 24

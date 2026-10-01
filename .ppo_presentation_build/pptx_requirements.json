@@ -1,0 +1,36 @@
+{
+  "slides": 24,
+  "native_chart_slides": [
+    4,
+    6,
+    11,
+    12,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "native_tables": [
+    5,
+    7,
+    9,
+    10
+  ],
+  "charts": 17,
+  "speaker_notes": 24,
+  "dimensions_emu": [
+    12192000,
+    6858000
+  ],
+  "font_policy": {
+    "basis": "reference",
+    "families": [
+      "Arial",
+      "Times New Roman"
+    ],
+    "referencePath": "/Users/alivakof/Desktop/RL/PPO_Presentation/PPO_Presentation.pdf"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "config": "momentum_slow",
+  "seed": 23,
+  "fold": 1,
+  "start": "2026-03-20 00:00:00+00:00",
+  "end": "2026-04-19 00:00:00+00:00",
+  "training_steps": 12000,
+  "updates": 2937,
+  "portfolio_return": 0.08591657912712525,
+  "market_return": 0.07852210712301044,
+  "excess_return": 0.007394472004114805,
+  "max_drawdown": -0.10164845879555184,
+  "log_return": 0.08242440376126701,
+  "action_changes": 372,
+  "steps": 719,
+  "total_reward": 0.08242440376126428
+}

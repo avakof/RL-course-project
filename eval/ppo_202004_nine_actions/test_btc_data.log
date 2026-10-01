@@ -1,0 +1,7 @@
+test_archive_millisecond_and_microsecond_timestamps (__main__.BTCDataTests.test_archive_millisecond_and_microsecond_timestamps) ... ok
+test_validation_rejects_gaps_duplicates_and_invalid_prices (__main__.BTCDataTests.test_validation_rejects_gaps_duplicates_and_invalid_prices) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.041s
+
+OK

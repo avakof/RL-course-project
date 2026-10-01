@@ -1,0 +1,5 @@
+Nine discrete target positions
+Position values are target exposures, not buy/sell quantities or a continuous action space. Repeating a target does not force rebalancing in the installed
+simulator; realised exposure can drift.
+Source: fixed notebook and captured experiment; all dates UTC.
+6 / 24

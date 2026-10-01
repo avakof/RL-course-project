@@ -1,0 +1,17 @@
+{
+  "config": "reference_dqn",
+  "seed": 23,
+  "fold": 3,
+  "start": "2026-07-18 00:00:00+00:00",
+  "end": "2026-08-17 00:00:00+00:00",
+  "training_steps": 12000,
+  "updates": 2937,
+  "portfolio_return": -0.006836128702655375,
+  "market_return": -0.015804089623477013,
+  "excess_return": 0.008967960920821638,
+  "max_drawdown": -0.12020584419589309,
+  "log_return": -0.006859602069612858,
+  "action_changes": 29,
+  "steps": 719,
+  "total_reward": -0.00685960206961219
+}

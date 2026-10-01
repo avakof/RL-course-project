@@ -1,0 +1,17 @@
+{
+  "config": "momentum_unlevered",
+  "seed": 42,
+  "fold": 3,
+  "start": "2026-07-18 00:00:00+00:00",
+  "end": "2026-08-17 00:00:00+00:00",
+  "training_steps": 24000,
+  "updates": 5937,
+  "portfolio_return": -0.0520857542626858,
+  "market_return": -0.015804089623477013,
+  "excess_return": -0.03628166463920879,
+  "max_drawdown": -0.09951570750133776,
+  "log_return": -0.053491238901696284,
+  "action_changes": 148,
+  "steps": 719,
+  "total_reward": -0.053491238901697526
+}

@@ -1,0 +1,17 @@
+{
+  "config": "ppo_unlevered",
+  "seed": 71,
+  "fold": 2,
+  "training_steps": 49152,
+  "updates": 1152,
+  "start": "2026-05-19 00:00:00+00:00",
+  "end": "2026-06-18 00:00:00+00:00",
+  "portfolio_return": -0.16857956339305602,
+  "market_return": -0.16374549574045505,
+  "excess_return": -0.004834067652600971,
+  "max_drawdown": -0.2463420141245244,
+  "log_return": -0.1846196715095557,
+  "action_changes": 36,
+  "steps": 719,
+  "total_reward": -0.184619671509556
+}

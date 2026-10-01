@@ -1,0 +1,17 @@
+{
+  "config": "momentum_long_only",
+  "seed": 23,
+  "fold": 3,
+  "start": "2026-07-18 00:00:00+00:00",
+  "end": "2026-08-17 00:00:00+00:00",
+  "training_steps": 12000,
+  "updates": 2937,
+  "portfolio_return": -0.029515305597291208,
+  "market_return": -0.015804089623477013,
+  "excess_return": -0.013711215973814195,
+  "max_drawdown": -0.05255999075851103,
+  "log_return": -0.029959647334415244,
+  "action_changes": 174,
+  "steps": 719,
+  "total_reward": -0.029959647334415196
+}

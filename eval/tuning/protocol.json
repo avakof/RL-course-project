@@ -1,0 +1,188 @@
+{
+  "configurations": [
+    {
+      "name": "reference_dqn",
+      "features": "basic",
+      "normalize": false,
+      "reward_scale": 1,
+      "gamma": 0.99,
+      "lr": 0.0001,
+      "double": false,
+      "tau": 0,
+      "turnover_penalty": 0.0,
+      "positions": [
+        -1.0,
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "hidden": 64,
+      "batch": 64,
+      "train_every": 4,
+      "weight_decay": 0
+    },
+    {
+      "name": "scaled_reward_ddqn",
+      "features": "basic",
+      "normalize": true,
+      "reward_scale": 100.0,
+      "gamma": 0.95,
+      "lr": 0.0001,
+      "double": true,
+      "tau": 0.01,
+      "turnover_penalty": 0.0,
+      "positions": [
+        -1.0,
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "hidden": 64,
+      "batch": 64,
+      "train_every": 4,
+      "weight_decay": 1e-05
+    },
+    {
+      "name": "momentum_ddqn",
+      "features": "momentum",
+      "normalize": true,
+      "reward_scale": 100.0,
+      "gamma": 0.95,
+      "lr": 0.0001,
+      "double": true,
+      "tau": 0.01,
+      "turnover_penalty": 0.0,
+      "positions": [
+        -1.0,
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "hidden": 64,
+      "batch": 64,
+      "train_every": 4,
+      "weight_decay": 1e-05
+    },
+    {
+      "name": "momentum_slow",
+      "features": "momentum",
+      "normalize": true,
+      "reward_scale": 100.0,
+      "gamma": 0.99,
+      "lr": 3e-05,
+      "double": true,
+      "tau": 0.01,
+      "turnover_penalty": 0.0,
+      "positions": [
+        -1.0,
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "hidden": 64,
+      "batch": 64,
+      "train_every": 4,
+      "weight_decay": 1e-05
+    },
+    {
+      "name": "momentum_turnover",
+      "features": "momentum",
+      "normalize": true,
+      "reward_scale": 100.0,
+      "gamma": 0.95,
+      "lr": 0.0001,
+      "double": true,
+      "tau": 0.01,
+      "turnover_penalty": 0.0003,
+      "positions": [
+        -1.0,
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "hidden": 64,
+      "batch": 64,
+      "train_every": 4,
+      "weight_decay": 1e-05
+    },
+    {
+      "name": "momentum_unlevered",
+      "features": "momentum",
+      "normalize": true,
+      "reward_scale": 100.0,
+      "gamma": 0.95,
+      "lr": 0.0001,
+      "double": true,
+      "tau": 0.01,
+      "turnover_penalty": 0.0001,
+      "positions": [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "hidden": 64,
+      "batch": 64,
+      "train_every": 4,
+      "weight_decay": 1e-05
+    },
+    {
+      "name": "momentum_long_only",
+      "features": "momentum",
+      "normalize": true,
+      "reward_scale": 100.0,
+      "gamma": 0.95,
+      "lr": 0.0001,
+      "double": true,
+      "tau": 0.01,
+      "turnover_penalty": 0.0001,
+      "positions": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "hidden": 64,
+      "batch": 64,
+      "train_every": 4,
+      "weight_decay": 1e-05
+    }
+  ],
+  "folds": [
+    [
+      "2026-01-19 00:00:00+00:00",
+      "2026-02-18 00:00:00+00:00"
+    ],
+    [
+      "2026-03-20 00:00:00+00:00",
+      "2026-04-19 00:00:00+00:00"
+    ],
+    [
+      "2026-05-19 00:00:00+00:00",
+      "2026-06-18 00:00:00+00:00"
+    ],
+    [
+      "2026-07-18 00:00:00+00:00",
+      "2026-08-17 00:00:00+00:00"
+    ]
+  ],
+  "screening_seeds": [
+    23
+  ],
+  "confirmation_seeds": [
+    23,
+    42,
+    71
+  ],
+  "screening_steps": 12000,
+  "confirmation_steps": 24000,
+  "final_steps": 24000,
+  "pre_eval_data_sha256": "afe1bc6c4e5fee79861a792d1b1dbfbf67186c29e8a74fa0a3f0214e2fbc7d09",
+  "implementation_sha256": "3aa8b932e738283ab515c227a1e44b6613abc4e4adec862f38957c85babbaeb0",
+  "score": "mean(log return) - 0.25*mean(drawdown magnitude) - 0.10*std(log return)",
+  "final_policy": "mean Q-values of three seeds, selected by validation ensemble score",
+  "reused_evaluation": true
+}

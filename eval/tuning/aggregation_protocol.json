@@ -1,0 +1,17 @@
+{
+  "reason": "Mean-Q confirmation ensembles underperformed cash and showed seed instability; test agreement gates using validation only before inspecting new assignment outcomes.",
+  "configurations": [
+    "momentum_turnover",
+    "momentum_unlevered"
+  ],
+  "aggregations": [
+    "mean_q",
+    "majority",
+    "unanimous",
+    "normalized_advantage"
+  ],
+  "score": "mean(log return) - 0.25*mean(drawdown magnitude) - 0.10*std(log return)",
+  "training": "Reuse the frozen confirmation checkpoints; no new fitting for aggregation selection",
+  "evaluation_results_inspected": false,
+  "implementation_sha256": "e144594eeb85b8249a0f32e75a6499873dc91d91b4586df21fff5f81720d2a08"
+}

@@ -1,0 +1,5 @@
+Low drawdown came from almost no market exposure
+Direct replay confirms all 742 cash decisions were caused by disagreement between the three models. They unanimously chose +1 only once, producing
+one holding interval and two position changes (entry and exit). These are decision frequencies, not capital weights.
+Source: fixed notebook and captured experiment; all dates UTC.
+18 / 24

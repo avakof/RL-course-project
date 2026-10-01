@@ -1,0 +1,11 @@
+.venv/
+.venv-rl/
+.rl-kernel/
+__pycache__/
+.ipynb_checkpoints/
+
+# Local system files and presentation build runtime state
+.DS_Store
+.ppo_presentation_build/chrome*-profile/
+.ppo_presentation_build/deps/
+.ppo_presentation_build/*.log

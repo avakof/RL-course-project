@@ -1,0 +1,11 @@
+Conclusion
+The search reduced risk mainly by choosing cash.
+Baseline +14.44%
+Selected −0.57%
+Buy-and-hold +21.11%
+A complete PPO pipeline ran 67 fits with chronological selection.
+The selected aggregation improved validation score and reduced activity.
+It did not improve evaluation return over baseline or cash.
+Robust trading advantage remains unproven.
+Source: fixed notebook and captured experiment; all dates UTC.
+23 / 24

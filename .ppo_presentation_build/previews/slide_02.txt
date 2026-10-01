@@ -1,0 +1,9 @@
+Research question and baseline
+Can policy selection improve BTC exposure decisions?
+Hourly BTC/USDT observations; nine discrete exposure choices.
+Baseline: three PPO networks combined by mean probability.
+Optimisation: features, update settings, turnover penalties and aggregation.
+Assessment: chronological validation, followed by a fixed evaluation window.
+“Selected” means best eligible PPO validation score. It does not mean highest evaluation return.
+Source: fixed notebook and captured experiment; all dates UTC.
+2 / 24

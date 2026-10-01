@@ -1,0 +1,7 @@
+config,seed,fold,training_steps,updates
+ppo_baseline,23,-1,49152,1152
+ppo_baseline,42,-1,49152,1152
+ppo_baseline,71,-1,49152,1152
+ppo_unlevered,23,-1,49152,1152
+ppo_unlevered,42,-1,49152,1152
+ppo_unlevered,71,-1,49152,1152

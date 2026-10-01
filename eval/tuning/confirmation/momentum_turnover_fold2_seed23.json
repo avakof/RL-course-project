@@ -1,0 +1,17 @@
+{
+  "config": "momentum_turnover",
+  "seed": 23,
+  "fold": 2,
+  "start": "2026-05-19 00:00:00+00:00",
+  "end": "2026-06-18 00:00:00+00:00",
+  "training_steps": 24000,
+  "updates": 5937,
+  "portfolio_return": -0.16561974432276017,
+  "market_return": -0.16374549574045505,
+  "excess_return": -0.0018742485823051158,
+  "max_drawdown": -0.28769936264408513,
+  "log_return": -0.1810660384743469,
+  "action_changes": 210,
+  "steps": 719,
+  "total_reward": -0.18106603847434818
+}

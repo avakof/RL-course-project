@@ -1,0 +1,5 @@
+Portfolio paths and drawdowns
+All paths start at 1,000 USDT in cash. Selected PPO ends at 994.29; baseline at 1,144.43. Curves are recomputed from the live trained agents and
+exactly match the stored experiment traces.
+Source: fixed notebook and captured experiment; all dates UTC.
+17 / 24

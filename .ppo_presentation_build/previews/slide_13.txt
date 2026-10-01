@@ -1,0 +1,15 @@
+Mean probability and unanimous vote
+Baseline: mean probability
+Average each action’s probability across the
+three networks.
+Choose the action with the largest average.
+argmaxa meani πi(a | s)
+Selected: unanimous vote
+Find each network’s most likely action.
+Execute only if all three agree exactly; otherwise
+choose cash.
+All votes equal → common action
+Disagreement → cash
+Both final policies use the same three baseline network weights.
+Source: fixed notebook and captured experiment; all dates UTC.
+13 / 24

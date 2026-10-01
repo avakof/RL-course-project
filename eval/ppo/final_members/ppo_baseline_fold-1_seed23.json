@@ -1,0 +1,7 @@
+{
+  "config": "ppo_baseline",
+  "seed": 23,
+  "fold": -1,
+  "training_steps": 49152,
+  "updates": 1152
+}

@@ -1,0 +1,5 @@
+Confirmation reduced confidence in the initial gains
+Confirmation refits each candidate from scratch using 49,152 transitions and seeds 23, 42 and 71. Both seed coverage and training budget changed, so
+the shift is not a controlled estimate of either effect alone.
+Source: fixed notebook and captured experiment; all dates UTC.
+12 / 24

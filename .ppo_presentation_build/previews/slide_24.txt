@@ -1,0 +1,12 @@
+References and evidence
+Primary evidence: the fixed notebook, its live frozen agents, trial tables and hourly portfolio traces.
+Schulman et al. Proximal Policy Optimization Algorithms (2017).
+https://arxiv.org/abs/1707.06347
+Schulman et al. Generalized Advantage Estimation (2015; revised 2018).
+https://arxiv.org/abs/1506.02438
+Binance public-data documentation.
+https://github.com/binance/binance-public-data
+Gym Trading Environment documentation and installed version 0.3.5.
+https://gym-trading-env.readthedocs.io/en/latest/environment_desc.html
+Captured runtime: pandas 3.0.6 · NumPy 1.26.4 · PyTorch 2.2.2 · Gymnasium 1.3.0
+24 / 24

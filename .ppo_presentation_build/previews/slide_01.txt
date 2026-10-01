@@ -1,0 +1,7 @@
+PPO for BTC/USDT
+Methodology, optimisation and evaluation
+Project_PPO_All_In_One_Fixed.ipynb
+Evaluation: 17 August–17 September 2026
+End exclusive · 744 candles · 743 transitions
+Research presentation · 28 September 2026
+1 / 24

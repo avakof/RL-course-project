@@ -1,0 +1,5 @@
+Initial screening results
+Each point is one validation fold. Bars are arithmetic means of four fold returns, seed 23, 16,384 training transitions per fit. These are validation results,
+not final evaluation returns.
+Source: fixed notebook and captured experiment; all dates UTC.
+11 / 24

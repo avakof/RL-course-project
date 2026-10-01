@@ -1,0 +1,22 @@
+Optimisation hypotheses
+Candidate
+Change
+Intended effect
+Momentum
+13 features + entropy + annealing
+More market context
+Cautious
+Lower rate; tighter clip
+Smaller policy updates
+Short horizon
+γ = 0.95; λ = 0.90
+Less distant reward dependence
+Turnover / low turnover
+κ = 0.0003 / 0.0001
+Fewer target changes
+Exploration
+Entropy coefficient 0.03
+More action diversity
+These are configuration bundles. Their individual components were not isolated in ablations.
+Source: fixed notebook and captured experiment; all dates UTC.
+9 / 24

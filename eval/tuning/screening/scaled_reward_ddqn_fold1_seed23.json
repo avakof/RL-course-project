@@ -1,0 +1,17 @@
+{
+  "config": "scaled_reward_ddqn",
+  "seed": 23,
+  "fold": 1,
+  "start": "2026-03-20 00:00:00+00:00",
+  "end": "2026-04-19 00:00:00+00:00",
+  "training_steps": 12000,
+  "updates": 2937,
+  "portfolio_return": 0.07544020496258863,
+  "market_return": 0.07852210712301044,
+  "excess_return": -0.003081902160421812,
+  "max_drawdown": -0.10057774198018898,
+  "log_return": 0.07273007074870838,
+  "action_changes": 369,
+  "steps": 719,
+  "total_reward": 0.0727300707487078
+}
